@@ -17,7 +17,10 @@ export default function Home() {
           Projeto em construção, espera pô!
         </p>
 
-       
+       <div>
+        <h2>Até Amanhã</h2>
+        <p>No momento estou morrendo de sonho</p>
+       </div>
 
         {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
