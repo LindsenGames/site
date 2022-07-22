@@ -17,9 +17,7 @@ export default function Home() {
           Projeto em construção, espera pô!
         </p>
 
-        <div className="outraDiv">
-          Estou montando um DIV com a Mary Lindsen Lasek esqueci o resto!
-        </div>
+       
 
         {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
