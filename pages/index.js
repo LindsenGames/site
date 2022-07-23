@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Slider from "../components/slider";
 import Footer from "../components/footer";
+import Jogos from "../components/jogos";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Slider />
       <Footer />
+      <Jogos />
     </>
   );
 }
