@@ -1,3 +1,21 @@
+
+:root {
+    --corrida:rgb(14, 14, 142);
+    --aventura:  rgb(142 91 14);
+    --acao:  rgb(51, 51, 51);
+    --logica: rgb(34, 91, 14);
+    --esportes:rgb(7, 57, 54);
+    --tematico: rgb(249, 106, 11);
+    --meninas: rgb(192, 16, 165);
+    --habilidade:rgb(128, 130, 134);
+    --animais:rgb(47, 97, 124);
+    --retro:rgb(81, 31, 105);
+    
+  
+  }
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,6 +36,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -42,22 +61,146 @@ table {
     border-spacing: 0;
 }
 
-header {
-  background-color: #f1f600;
-  padding: 20px;
-  text-align: center;
+
+
+/*CAIXA DE JOGOS*/
+.caixa-jogos{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
-.Slider {
-  background-color: blue;
-  color: white;
-  padding: 20px;
-  text-align: center;
+/*CORES DAS CAIXAS*/
+.caixa-corrida{
+   background-color: var(--corrida);
+}
+.caixa-aventura{
+    background-color: var(--aventura);
+}
+.caixa-acao{
+    background-color: var(--acao);
+}
+.caixa-logica{
+    background-color:var(--logica) ;
+}
+.caixa-esportes {
+    background-color: var(--esportes);
+}
+.caixa-tematico{
+    background-color: var(--tematico);
+}
+.caixa-meninas{
+    background-color: var(--meninas);
+}
+.caixa-habilidade{
+    background-color: var(--habilidade);
+}
+.caixa-animais{
+    background-color: var(--animais);
+}
+.caixa-retro{
+    background-color: var(--retro);
+}
+/*TITULO DE CATEGORIA DE JOGO*/
+.title-games-type a {
+    color: white;
+    text-decoration: none;
+    
 }
 
-footer {
-  background-color: red;
-  color: white;
-  padding: 20px;
-  text-align: center;
+/*IMAGEM DA CAIXA DE JOGOS*/
+.image-games-type img{
+    border-radius: 20px;
+    margin-top: 10px;
+ }
+
+/*LISTA DE JOGOS DA CATEGORIA NA CAIXA*/
+.list-game-type {
+    background-color: #ccc;
+    padding: 2px;
+}
+
+.list-games {
+    padding-top: 10px;
+}
+
+.list-games li a {
+   text-decoration: none;
+   color: black;
+   margin-top: 10px;
+ 
+    
+}
+
+.list-games ul li a {
+    margin: 10px;
+  
+}
+
+.list-games ul li {
+    list-style-type: none;
+    border: 3px solid ;
+    border-radius: 10px;
+    line-height: 24px;
+    margin: 5px;
+}
+
+/*HOVER LISTAS*/
+.list-corrida ul li:hover{
+    background-color: rgba(56, 79, 205, 0.548);
+}
+
+.list-aventura ul li:hover{
+    background-color: rgba(209, 107, 17, 0.493);
+}
+
+
+.list-acao ul li:hover{
+    background-color: rgb(120, 119, 119);
+}
+
+.list-logica ul li:hover{
+    background-color: rgba(23, 149, 27, 0.719);
+}
+
+.list-esportes ul li:hover{ 
+    background-color:rgba(8, 86, 104, 0.495);
+}
+
+.list-tematic ul li:hover{
+    background-color:orange ;
+}
+.list-meninas li:hover{
+    background-color:rgb(237, 116, 136);
+}
+
+.list-habilidade ul li:hover{
+    background-color:rgba(1, 55, 42, 0.359);
+}
+
+.list-animais ul li:hover{
+    background-color: rgba(7, 167, 114, 0.477);
+}
+
+.list-retro ul li:hover{
+    background-color:#5E4D85 ;
+}
+
+
+/*PARA REDIRECIONAR MAIS JOGOS*/
+.more {
+    padding: 10px;
+
+}
+
+.more a {
+    color: white;
+    text-decoration: none;
+}
+
+.more a:hover{
+    color: rgb(246, 255, 0);
+    transition: 0.5s;
 }

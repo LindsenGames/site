@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer>Developed by Mary & Hebert</footer>
+        <footer></footer>
         );
     };
     
