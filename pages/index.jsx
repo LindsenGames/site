@@ -1,15 +1,17 @@
+import Topo from "../components/topo";
 import Header from "../components/header";
 import Slider from "../components/slider";
-import Footer from "../components/footer";
 import Jogos from "../components/jogos";
+import Footer from "../components/footer";
 
 function Home() {
   return (
     <>
+      <Topo />
       <Header />
       <Slider />
-      <Footer />
       <Jogos />
+      <Footer />
     </>
   );
 }

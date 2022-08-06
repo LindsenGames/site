@@ -322,9 +322,9 @@ const Jogos = () => {
                     <a href="">Mais jogos Retro!</a>
                 </div>
             </div>    
-            </div>
+        </div>
         
-        );
-    };
+    );
+};
     
-    export default Jogos;
+export default Jogos;

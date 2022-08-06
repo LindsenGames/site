@@ -1,3 +1,14 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Lindsen Games - Developed by Mary & Hebert | 01/08/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 01/08/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
 
 :root {
     --corrida:rgb(14, 14, 142);
@@ -10,25 +21,10 @@
     --habilidade:rgb(128, 130, 134);
     --animais:rgb(47, 97, 124);
     --retro:rgb(81, 31, 105);
-    
-  
-  }
+}
 
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -38,32 +34,33 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-
-
-/*CAIXA DE JOGOS*/
 .caixa-jogos{
     display: inline-block;
     text-align: center;
@@ -72,51 +69,56 @@ table {
     border-radius: 15px;
 }
 
-/*CORES DAS CAIXAS*/
-.caixa-corrida{
+.caixa-corrida {
    background-color: var(--corrida);
 }
-.caixa-aventura{
+
+.caixa-aventura {
     background-color: var(--aventura);
 }
-.caixa-acao{
+
+.caixa-acao {
     background-color: var(--acao);
 }
-.caixa-logica{
+
+.caixa-logica {
     background-color:var(--logica) ;
 }
+
 .caixa-esportes {
     background-color: var(--esportes);
 }
-.caixa-tematico{
+
+.caixa-tematico {
     background-color: var(--tematico);
 }
 .caixa-meninas{
     background-color: var(--meninas);
 }
-.caixa-habilidade{
+
+.caixa-habilidade {
     background-color: var(--habilidade);
 }
-.caixa-animais{
+
+.caixa-animais {
     background-color: var(--animais);
 }
-.caixa-retro{
+
+.caixa-retro {
     background-color: var(--retro);
 }
-/*TITULO DE CATEGORIA DE JOGO*/
+
+
 .title-games-type a {
     color: white;
     text-decoration: none;
-    
 }
 
-/*IMAGEM DA CAIXA DE JOGOS*/
-.image-games-type img{
+.image-games-type img {
     border-radius: 20px;
     margin-top: 10px;
- }
+}
 
-/*LISTA DE JOGOS DA CATEGORIA NA CAIXA*/
 .list-game-type {
     background-color: #ccc;
     padding: 2px;
@@ -130,13 +132,10 @@ table {
    text-decoration: none;
    color: black;
    margin-top: 10px;
- 
-    
 }
 
 .list-games ul li a {
     margin: 10px;
-  
 }
 
 .list-games ul li {
@@ -147,52 +146,47 @@ table {
     margin: 5px;
 }
 
-/*HOVER LISTAS*/
-.list-corrida ul li:hover{
+.list-corrida ul li:hover {
     background-color: rgba(56, 79, 205, 0.548);
 }
 
-.list-aventura ul li:hover{
+.list-aventura ul li:hover {
     background-color: rgba(209, 107, 17, 0.493);
 }
 
-
-.list-acao ul li:hover{
+.list-acao ul li:hover {
     background-color: rgb(120, 119, 119);
 }
 
-.list-logica ul li:hover{
+.list-logica ul li:hover {
     background-color: rgba(23, 149, 27, 0.719);
 }
 
-.list-esportes ul li:hover{ 
+.list-esportes ul li:hover { 
     background-color:rgba(8, 86, 104, 0.495);
 }
 
-.list-tematic ul li:hover{
+.list-tematic ul li:hover {
     background-color:orange ;
 }
-.list-meninas li:hover{
+.list-meninas li:hover {
     background-color:rgb(237, 116, 136);
 }
 
-.list-habilidade ul li:hover{
+.list-habilidade ul li:hover {
     background-color:rgba(1, 55, 42, 0.359);
 }
 
-.list-animais ul li:hover{
+.list-animais ul li:hover {
     background-color: rgba(7, 167, 114, 0.477);
 }
 
-.list-retro ul li:hover{
+.list-retro ul li:hover {
     background-color:#5E4D85 ;
 }
 
-
-/*PARA REDIRECIONAR MAIS JOGOS*/
 .more {
     padding: 10px;
-
 }
 
 .more a {
